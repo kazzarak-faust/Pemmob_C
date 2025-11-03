@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Flutter GetX Navigation')), 
+      appBar: AppBar(title: const Text('Ujian CPMK 3 Pemrograman Mobile')), 
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
